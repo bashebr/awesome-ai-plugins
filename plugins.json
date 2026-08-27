@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-26",
-  "total": 234,
+  "last_updated": "2026-08-27",
+  "total": 242,
   "platforms": [
     "codex",
     "grok",
@@ -482,20 +482,6 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/yimwoo/codex-agenteam/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Codex Full-Stack Workflow",
-      "url": "https://github.com/kevin592/codex-full-stack-workflow",
-      "owner": "kevin592",
-      "repo": "codex-full-stack-workflow",
-      "description": "Turns rough product requests into staged, reviewable full-stack delivery with persistent requirements, change control, visual evidence, and completion gates.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2378,6 +2364,20 @@
       ]
     },
     {
+      "name": "Qatom",
+      "url": "https://github.com/TODAQmicro/qatom-skill",
+      "owner": "TODAQmicro",
+      "repo": "qatom-skill",
+      "description": "An MCP agentic commerce market. One-step register your MCP server. Build your API & services catalog. Sell with your own merchant agent. Customers, agents, and consumers discover and purchase from your catalog. Control your own payments, auditable records, payouts to supply chain and bank.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TODAQmicro/qatom-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Read Image",
       "url": "https://github.com/ZXY1240/read-image",
       "owner": "ZXY1240",
@@ -2770,6 +2770,20 @@
       ]
     },
     {
+      "name": "2718lab DevKit",
+      "url": "https://github.com/2718labs/2718lab-devkit",
+      "owner": "2718labs",
+      "repo": "2718lab-devkit",
+      "description": "Codex-first local MCP server and skill bundle for deterministic project intelligence, durable workflow orchestration, and reusable engineering tools",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/2718labs/2718lab-devkit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Agentic Ship",
       "url": "https://github.com/moasq/agentic-ship",
       "owner": "moasq",
@@ -2798,6 +2812,20 @@
       ]
     },
     {
+      "name": "AI-Native SDLC",
+      "url": "https://github.com/bashebr/ai-native-sdlc",
+      "owner": "bashebr",
+      "repo": "ai-native-sdlc",
+      "description": "Reusable skill and plugin bundle implementing the AI-native SDLC workflow: plan, design, build, test, deploy, and maintain with human approval gates",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bashebr/ai-native-sdlc/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Antigravity Context Meter",
       "url": "https://github.com/Dunphil692/antigravity-context-meter",
       "owner": "Dunphil692",
@@ -2812,6 +2840,20 @@
       ]
     },
     {
+      "name": "claude-image-gen",
+      "url": "https://github.com/guinacio/claude-image-gen",
+      "owner": "guinacio",
+      "repo": "claude-image-gen",
+      "description": "AI-powered image generation using Google Gemini or OpenAI (gpt-image-2), integrated with Claude Code via Skills or Claude.ai via MCP",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/guinacio/claude-image-gen/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Claude Watchdog",
       "url": "https://github.com/Temikus/claude-watchdog",
       "owner": "Temikus",
@@ -2821,6 +2863,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Temikus/claude-watchdog/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex Full-Stack Workflow",
+      "url": "https://github.com/kevin592/codex-full-stack-workflow",
+      "owner": "kevin592",
+      "repo": "codex-full-stack-workflow",
+      "description": "Turns rough product requests into staged, reviewable full-stack delivery with persistent requirements, change control, visual evidence, and completion gates",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -2868,6 +2924,20 @@
       ]
     },
     {
+      "name": "kgai",
+      "url": "https://github.com/kgaidev/kgai",
+      "owner": "kgaidev",
+      "repo": "kgai",
+      "description": "Shared decision memory for AI dev teams, an immutable local log of the decisions behind your code, synced over an S3 bucket you own",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Knowl",
       "url": "https://github.com/dat999zx/knowl",
       "owner": "dat999zx",
@@ -2891,20 +2961,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "kgai",
-      "url": "https://github.com/kgaidev/kgai",
-      "owner": "kgaidev",
-      "repo": "kgai",
-      "description": "Shared decision memory for AI dev teams, an immutable local log of the decisions behind your code, synced over an S3 bucket you own",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -2938,6 +2994,20 @@
       ]
     },
     {
+      "name": "MegaLinter",
+      "url": "https://github.com/oxsecurity/megalinter",
+      "owner": "oxsecurity",
+      "repo": "megalinter",
+      "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/oxsecurity/megalinter/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "MeMesh",
       "url": "https://github.com/PCIRCLE-AI/memesh",
       "owner": "PCIRCLE-AI",
@@ -2952,6 +3022,20 @@
       ]
     },
     {
+      "name": "metabrain",
+      "url": "https://github.com/ariaxhan/metabrain",
+      "owner": "ariaxhan",
+      "repo": "metabrain",
+      "description": "MCP server for agent memory: SQLite, zero dependencies, tools learn/recall/verdict/hypotheses/start_brief/stats/capture_error, patterns graduating to hypotheses then preferences; `pip install \"metabrain[mcp]\"` then `metabrain-mcp --db PATH`",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/metabrain/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "NeatContext",
       "url": "https://github.com/XTSoftwareLabs/neatcontext-plugins",
       "owner": "XTSoftwareLabs",
@@ -2961,20 +3045,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/XTSoftwareLabs/neatcontext-plugins/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "MegaLinter",
-      "url": "https://github.com/oxsecurity/megalinter",
-      "owner": "oxsecurity",
-      "repo": "megalinter",
-      "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/oxsecurity/megalinter/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3050,15 +3120,15 @@
       ]
     },
     {
-      "name": "Skill-Atlas",
-      "url": "https://github.com/danielLublinsky/Skill-Atlas",
-      "owner": "danielLublinsky",
-      "repo": "Skill-Atlas",
-      "description": "A third tier for Claude Code skills \u2014 dormant, zero tokens, still findable. Search a graph of your collection instead of preloading it",
+      "name": "agentmailkit",
+      "url": "https://github.com/ariaxhan/agentmailkit",
+      "owner": "ariaxhan",
+      "repo": "agentmailkit",
+      "description": "MCP server for scheduled LLM-written email digests from RSS, web and local sources: tools list_jobs/run_job/preview_job/list_plugins, local-first, run_job dry-run by default; `pip install \"agentmailkit[mcp]\"` then `agentmailkit mcp`",
       "category": "Tools & Integrations",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/agentmailkit/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3246,6 +3316,20 @@
       ]
     },
     {
+      "name": "site-spec",
+      "url": "https://github.com/ariaxhan/site-spec",
+      "owner": "ariaxhan",
+      "repo": "site-spec",
+      "description": "MCP server for website audit and auto-fix: 40 checks across SEO, accessibility, privacy, structured data and AI searchability, tools audit_site/fix_issue/compile_spec/list_checks; `npx -y site-spec-mcp`",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/site-spec/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "sitemd",
       "url": "https://github.com/sitemd-cc/sitemd",
       "owner": "sitemd-cc",
@@ -3255,6 +3339,34 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Skill-Atlas",
+      "url": "https://github.com/danielLublinsky/Skill-Atlas",
+      "owner": "danielLublinsky",
+      "repo": "Skill-Atlas",
+      "description": "A third tier for Claude Code skills \u2014 dormant, zero tokens, still findable. Search a graph of your collection instead of preloading it",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Telnyx",
+      "url": "https://github.com/team-telnyx/ai",
+      "owner": "team-telnyx",
+      "repo": "ai",
+      "description": "Telnyx toolkit for AI agents bundling Claude Code, Cursor, Gemini CLI, and OpenCode plugins, an agent toolkit for OpenAI/LangChain/CrewAI/Vercel AI SDK, a hosted MCP server, and a one-command CLI for messaging, voice, numbers, and account management",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/team-telnyx/ai/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
